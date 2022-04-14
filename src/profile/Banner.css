@@ -1,0 +1,149 @@
+
+@media (min-width: 900px)
+{
+.banner1 
+ {
+   display: flex;
+   flex-direction: row;
+   width:100% ;
+  height: calc(100vh - 70px);
+  scroll-snap-align: start;
+ }
+ .left{
+    flex: 0.5;
+}
+.right{
+  
+    flex: 0.5;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+  
+   margin-top: 27%;
+   margin-left: 20%;
+}
+.text h2{
+   
+    margin-top: 2%;
+    font-weight: 700;
+}
+.text h3{
+   font-weight: 700;
+}
+.text h1{
+   font-size: 3vw;
+   font-weight: 700;
+}
+h3 span{
+   color: rgb(250, 4, 4);
+   margin-left: 1%;
+}
+
+.contact-btn{
+    width: 30%;
+    height: 6%;
+    margin-left: 20%;
+    margin-top: 4%;
+    background-color:rgb(2, 44, 51);
+    color: #ffffff;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcontainer{
+    background-color: rgb(2, 44, 51);
+    border-top-left-radius: 70%;
+    border-top-right-radius:70% ;
+    width:70%;
+    height: 85%;
+    top: 7.5%;
+    position: relative;
+}
+.img{
+    width: 40%;
+    height: 40rem;
+    position: absolute;
+    top: 0;
+}
+}
+
+
+.banner1{
+    background-color: rgb(161, 224, 224);
+}
+
+
+
+
+
+
+
+@media (max-width: 900px)
+{
+.banner1 
+ {
+   display: flex;
+   flex-direction: column;
+   background-color: cyan;
+   width:100% ;
+  height: calc(100vh - 70px);
+  scroll-snap-align: start;
+ }
+ .left{
+     height: 30vh;
+ }
+ .text{
+     display: flex;
+     flex-direction: column;
+    height: 20%;
+     
+    margin-left: 20%;
+ }
+ .text h2{
+     height: 4vh;
+     margin-top: 2%;
+     font-weight: 700;
+ }
+.text h3{
+    height: 6vh;
+    font-weight: 700;
+}
+ .text h1{
+    height: 6vh;
+    font-size: 6vw;
+    font-weight: 700;
+}
+h3 span{
+    color: rgb(250, 4, 4);
+    margin-left: 1%;
+}
+.contact-btn{
+    width: 30%;
+    height: 19%;
+    margin-left: 40%;
+    margin-top: 17%;
+    background-color: rgb(2, 44, 51);
+    color: #ffffff;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .imgcontainer{
+    background-color: rgb(2, 44, 51);;
+    border-top-left-radius: 40%;
+    border-top-right-radius:40% ;
+    width: 80%;
+    height: 100%;
+    position: relative;
+} */
+.img{
+    width: 100%;
+    height: 30rem;
+    position: absolute;
+}
+}
