@@ -20,7 +20,7 @@ export default function Banner(){
                  <h3>Full Time<span ref={textRef}> </span></h3>
                 
              </div>
-             <button className="btn  contact-btn">Contact Now</button>
+             <a href="#contact" className="contact_button"> <button className="btn  contact-btn" >Contact Now</button></a>
            </div>
            <div className="right">
                {/* <div className="imgcontainer">

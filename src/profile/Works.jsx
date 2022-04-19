@@ -25,7 +25,7 @@ export default function Works(){
     }
     return (
        <>
-       <div className="works" id="works">
+       <div className="works" id="service">
            <p className="arrow" onClick={()=>handleClick("left")}>
            </p>
            

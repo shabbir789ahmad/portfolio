@@ -1,0 +1,28 @@
+.contact_items{
+    display: flex;
+   flex-direction: column;
+   width:100% ;
+  height: calc(100vh - 70px);
+}
+.form_style{
+    width: 100%;
+    height: 100%;
+   position: relative;
+}
+.form_style img{
+    height: 100%;
+}
+.back_color{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 60%;
+    background-color: chocolate;
+}
+.form{
+    position: absolute;
+    top: 20%;
+    width: 97%;
+    left: 1%;
+}

@@ -1,3 +1,70 @@
-.testi{
-    background-color: chocolate;
+.test_monial_items{
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   width:100% ;
+  height: calc(100vh - 70px);
+}
+.test_monial_items h1{
+    font-size: 3vw;
+    margin-top: 10%;
+    font-weight: 700;
+}
+
+.card_style h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 4%;
+  }
+  .card_style p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(80, 79, 79);
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-top: 4%;
+  }
+  
+  /* .test_monial_items{
+      display: flex;
+      justify-content: center;
+  }
+  .row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      margin-top: 10%;
+  }
+  .col{
+
+
+  } */
+  .user_detail{
+    display: flex;
+    align-items: center;
+}
+.user_detail img{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border:2px solid black;
+}
+
+.name_city {
+    display: flex;
+    flex-direction: column;
+  
+    margin-left: 4%;
+    
+}
+.name_city h6{
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    font-weight: 700;
+}
+.name_city p{
+    font-size: 1vw;
+    margin-left: 0;
 }

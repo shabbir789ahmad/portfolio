@@ -10,10 +10,10 @@ export default function Navbar(){
       <label className="logo">DevStack</label>
       <ul>
         <li><a className="active"  href="#banner">Home</a></li>
-        <li><a  href="#portfolio">About</a></li>
-        <li><a href="#works">Services </a></li>
-        <li><a href="#testimo">Contact</a></li>
-        <li><a href="#contact">Feedback</a></li>
+        <li><a  href="#portfolio">Project</a></li>
+        <li><a href="#service">Services </a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#contact"> Contact</a></li>
       </ul>
     </nav>
 
