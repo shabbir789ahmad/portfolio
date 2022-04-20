@@ -26,7 +26,7 @@ export default function Banner(){
                {/* <div className="imgcontainer">
                    
                </div> */}
-               <img src="/download-removebg-preview.png" alt="man imag"  className="img"/>
+               <img src="/IMG_20220420_040806.jpg" alt="man imag"  className="img"/>
            </div>
        </div>
        </>
