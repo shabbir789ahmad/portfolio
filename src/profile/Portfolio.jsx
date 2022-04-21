@@ -53,14 +53,14 @@ export default function Portfolio(){
                ))}
                
            </ul>
-           <div className="container1 m-2">
-               <div clasName="row">
+           <div className="container1 ">
+              
                    {data.map(it=>(
-                  <div className="col-md-3">
+                  
                    <Card id={it.id} title={it.title} img={it.img}/>
-                       </div>
+                      
              ))},
-               </div>
+               
               
               
                

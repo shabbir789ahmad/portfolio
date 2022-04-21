@@ -4,6 +4,28 @@
    width:100% ;
   height: calc(100vh - 70px);
 }
+@media(max-width:480px)
+{
+    .contact_items h1{
+        font-size: 9vw;
+    }
+
+    .contact_items{
+       
+      height: 50rem;
+    }
+}
+@media(min-width:481px) and (max-width:900px)
+{
+    .contact_items h1{
+        font-size: 9vw;
+    }
+
+    .contact_items{
+       
+      height: 60rem;
+    }
+}
 .form_style{
     width: 100%;
     height: 100%;

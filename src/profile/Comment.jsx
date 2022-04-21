@@ -3,7 +3,7 @@ export default function Comment({tag,comment,img}){
     return (
 
         <>
-            <div className="col-md-4 col">
+            <div className="col-md-6 col-lg-4 col-12 mt-4">
          <div className="card shadow">
            <div className="card-body card_style">
              <i className="fas fa-comment"></i>

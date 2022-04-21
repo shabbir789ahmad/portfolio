@@ -6,7 +6,7 @@ export default function Contact(){
        <>
       
          <div className="contact_items" id="contact">
-          <h1>Contact Me</h1>
+          <h1 className="text-center">Contact Me</h1>
            <div className="form_style">
              <img src="woman-4702060_960_720.webp" alt="ddfdf" width="100%" />
               <div className="back_color">

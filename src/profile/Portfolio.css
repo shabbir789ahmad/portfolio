@@ -6,12 +6,68 @@
   height: calc(100vh - 70px);
   scroll-snap-align: start;
 }
+
 .portfolio h1{
-   font-size: 3vw;
-   font-weight: bold;
-   margin-top: 2%;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+@media (max-width:576px)
+{
+    .portfolio{
+        height: 100rem  !important;
+    }
+
+    .portfolio h1{
+        font-size: 8vw;
+     }
 }
+
+@media (min-width:577px) and (max-width:770px)
+{
+    .portfolio{
+        height: 100rem  !important;
+    }
+
+    .portfolio h1{
+        font-size: 6vw;
+     }
+}
+
+@media (min-width:771px) and (max-width:1000px)
+{
+    .portfolio{
+        height: 110vh ;
+    }
+
+    .portfolio h1{
+        font-size: 6vw;
+     }
+}
+
+@media (min-width:1001px) and (max-width:1500px)
+{
+    .portfolio{
+        height: 115vh ;
+    }
+
+    .portfolio h1{
+        font-size: 4vw;
+     }
+}
+@media (min-width:1501px) and (max-width:2100px)
+{
+    .portfolio{
+        height: 100vh ;
+    }
+
+    .portfolio h1{
+        font-size: 3vw;
+     }
+}
+
 .navpills{
     display: flex;
     flex-direction: row;

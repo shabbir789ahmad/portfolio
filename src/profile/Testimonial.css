@@ -5,11 +5,83 @@
    width:100% ;
   height: calc(100vh - 70px);
 }
-.test_monial_items h1{
-    font-size: 3vw;
-    margin-top: 10%;
-    font-weight: 700;
+
+@media (max-width:480px)
+{
+    .test_monial_items{
+        
+      height: 90rem ;
+    }
+
+    .test_monial_items h1{
+        font-size: 9vw;
+        margin-top: 10%;
+        font-weight: 700;
+    }
+    .name_city p{
+        font-size: 4vw;
+        margin-left: 0;
+    }
+    
 }
+
+@media (min-width:481px) and (max-width:766px)
+{
+    .test_monial_items{
+        
+      height: 90rem ;
+    }
+
+    .test_monial_items h1{
+        font-size: 9vw;
+        margin-top: 10%;
+        font-weight: 700;
+    }
+    .name_city p{
+        font-size: 4vw;
+        margin-left: 0;
+    }
+    
+}
+
+@media (min-width:767px) and (max-width:1024px)
+{
+    .test_monial_items{
+        
+      height: 70rem ;
+    }
+
+    .test_monial_items h1{
+        font-size: 6vw;
+        margin-top: 10%;
+        font-weight: 700;
+    }
+    .name_city p{
+        font-size: 4vw;
+        margin-left: 0;
+    }
+    
+}
+
+@media (min-width:1025px) and (max-width:2000px)
+{
+    .test_monial_items{
+        
+      height: 50rem ;
+    }
+
+    .test_monial_items h1{
+        font-size: 3vw;
+        margin-top: 10%;
+        font-weight: 700;
+    }
+    .name_city p{
+        font-size: 4vw;
+        margin-left: 0;
+    }
+    
+}
+
 
 .card_style h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,22 +96,7 @@
     font-weight: normal;
     margin-top: 4%;
   }
-  
-  /* .test_monial_items{
-      display: flex;
-      justify-content: center;
-  }
-  .row{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 70%;
-      margin-top: 10%;
-  }
-  .col{
-
-
-  } */
+ 
   .user_detail{
     display: flex;
     align-items: center;
@@ -63,8 +120,4 @@
     padding: 0;
     margin-top: 2rem;
     font-weight: 700;
-}
-.name_city p{
-    font-size: 1vw;
-    margin-left: 0;
 }

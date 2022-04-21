@@ -16,7 +16,7 @@ function App() {
    <div className="section">
       <Banner />
       <Portfolio />
-      <Works />
+      {/* <Works /> */}
       <Testimonial />
       <Contact />
    </div>
