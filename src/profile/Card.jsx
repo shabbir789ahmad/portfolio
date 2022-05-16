@@ -1,6 +1,12 @@
 import "./Portfolio.css";
 
 export default function Card({id,title,img}){
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+  
     return (
        <>
         <div className="item item_hover">
