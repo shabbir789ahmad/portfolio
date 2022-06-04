@@ -36,7 +36,7 @@ export default function Works(){
                      <div className="left">
                          <div className="left_container">
                          <div className="left_image">
-                             <img src={ds.img} alt="image" />
+                             <img src={ds.img} alt="" />
                          </div>
                          <h2>{ds.title}</h2>
                          <p>{ds.text}</p>
@@ -44,7 +44,7 @@ export default function Works(){
                          </div>
                      </div>
                      <div className="right">
-                         <img src={ds.img} alt="image" />
+                         <img src={ds.img} alt="" />
                      </div>
                     </div>
                
