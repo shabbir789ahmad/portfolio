@@ -1,5 +1,6 @@
 import "./Portfolio.css";
-
+import {useEffect, useState} from 'react';
+import AOS from 'aos';
 export default function Card({id,title,img}){
 
   useEffect(() => {
