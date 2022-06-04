@@ -1,5 +1,5 @@
 import "./Works.css";
-import { useState,useEffect } from "react";
+import { useState } from "react";
 export default function Works(){
     const [currentSlide,setCurrentSlide]=useState(0);
     const data=[
@@ -36,7 +36,7 @@ export default function Works(){
                      <div className="left">
                          <div className="left_container">
                          <div className="left_image">
-                             <img src={ds.img} />
+                             <img src={ds.img} alt="image" />
                          </div>
                          <h2>{ds.title}</h2>
                          <p>{ds.text}</p>
@@ -44,7 +44,7 @@ export default function Works(){
                          </div>
                      </div>
                      <div className="right">
-                         <img src={ds.img} />
+                         <img src={ds.img} alt="image" />
                      </div>
                     </div>
                
