@@ -50,7 +50,7 @@
 @media (min-width:1001px) and (max-width:1500px)
 {
     .portfolio{
-        height: 115vh ;
+        height: 70vh ;
     }
 
     .portfolio h1{
@@ -97,7 +97,7 @@
     border-radius: 2%;
     margin: 5%;
     padding-bottom: 3%;
-    width: 24rem;
+    width: 20rem;
     box-shadow: 2px solid red;
 }
 .item .card img{

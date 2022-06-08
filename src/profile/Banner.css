@@ -1,15 +1,8 @@
 
-
-
-
-
 .contact_button:hover{
     background-color: #A1E0E0 !important;
     color: #000;
 }
-
-
-
 
 
 @media (max-width: 576px)
@@ -18,7 +11,7 @@
  {
    
    width:100% ;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 50vh);
   scroll-snap-align: start;
  }
  
@@ -70,7 +63,7 @@ h3 span{
  {
    
    width:100% ;
-  height: calc(100vh - 180px);
+  height: calc(100vh - 60vh);
   scroll-snap-align: start;
  }
  
@@ -124,11 +117,11 @@ h3 span{
  {
    overflow: hidden;
    width:100% ;
-  height: calc(100vh - 180px);
+  height: calc(100vh - 30vh);
   scroll-snap-align: start;
  }
  .row{
-  background-color: chartreuse;
+ 
     overflow: hidden;
  }
  
@@ -172,7 +165,7 @@ h3 span{
  {
    overflow: hidden;
    width:100% ;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 40vh);
   scroll-snap-align: start;
  }
  

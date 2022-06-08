@@ -5,22 +5,23 @@
     list-style: none;
     box-sizing: border-box;
   }
-  /* body{
-    font-family: montserrat;
-  } */
+  
   nav{
     background: #071118;
     height: 80px;
     width: 100%;
     z-index: 2;
     position: fixed;
+    display: flex;
+    justify-content: space-between;
   }
   label.logo{
     color: white;
     font-size: 35px;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 80px;
     font-weight: bold;
+    width: 80px;
   }
   nav ul{
     float: right;

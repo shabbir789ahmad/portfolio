@@ -7,7 +7,7 @@ export default function Navbar(){
       <label htmlFor="check" className="checkbtn">
         <i className="fas fa-bars"></i>
       </label>
-      <label className="logo"><img src="/profile-pic (2).png"  alt="logo" width="9%" />DevStack</label>
+      <label className="logo"> DevStack</label>
       <ul>
         <li><a className="active"  href="#banner">Home</a></li>
         <li><a  href="#portfolio">Project</a></li>

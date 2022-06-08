@@ -9,19 +9,25 @@ export default function Testimonial(){
           id:'1',
           tag:"Very Good Product",
           img:'/xproduct_3.png.pagespeed.ic.jCfub0gA7s.webp',
-          comment:'this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen i am fully satisfied with the quality price and plus behavour'
+          comment:'this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen '
         },
         {
           id:'1',
           tag:"Realy Liked This Product",
           img:'/xproduct_3.png.pagespeed.ic.jCfub0gA7s.webp',
-          comment:'this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen i am fully satisfied with the quality price and plus behavour'
+          comment:'this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen '
         },
         {
           id:'1',
           tag:"Amazing Product",
           img:'/xproduct_3.png.pagespeed.ic.jCfub0gA7s.webp',
-          comment:'this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen i am fully satisfied with the quality price and plus behavour'
+          comment:'this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen '
+        },
+        {
+          id:'1',
+          tag:"Amazing Product",
+          img:'/xproduct_3.png.pagespeed.ic.jCfub0gA7s.webp',
+          comment:'this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen i am fully satisfied with the quality price and plus behavour this is the best product i have seen '
         }
 
 ]
