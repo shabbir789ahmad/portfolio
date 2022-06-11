@@ -1,99 +1,127 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  /* body{
-    font-family: montserrat;
-  } */
-  nav{
-    background: #071118;
-    height: 80px;
-    width: 100%;
-    z-index: 2;
-    position: fixed;
-  }
-  label.logo{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-  }
-  nav ul{
-    float: right;
-    margin-right: 20px;
-    font-family:  Tahoma, Geneva, Verdana, sans-serif;
-  }
-  nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-  }
-  nav ul li a{
-    color: white;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(1, 1, 24);
+  border-bottom: 1px solid #fff;
+  margin-bottom: 0%;
+}
+.logo{
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 5%;
+}
+.list{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.list li{
+  display: inline-block;
+  list-style: none;
+}
+.list li a{
+  color: white;
     font-size: 17px;
-    padding: 7px 13px;
+    padding: 15px 13px;
     border-radius: 3px;
     text-decoration: none;
   
     text-transform: uppercase;
-  }
-  a.active,a:hover{
-    background: #8cd603;
-    transition: .5s;
+}
+.list li a:hover{
+  background-color: red;
+}
+.active{
+  background-color: red;
+}
+.checkbtn{
+  display: none;
+  font-size: 4vw;
+  color: #fff;
+  margin-right: 4%;
+}
+#check{
+  display: none;
+}
+
+@media (min-width:401px) and (max-width:900px)
+{
+  .logo{
+    font-size: 6vw;
   }
   .checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
+    display: block;
   }
-  #check{
-    display: none;
+  .list{
+   position: fixed;
+   top: 60px;
+   left: -73%;
+   width: 70%;
+   height: 100vh;
+   z-index: 999;
+   background-color: rgb(29, 13, 13);
+   
   }
-  @media (max-width: 952px){
-    label.logo{
-      font-size: 30px;
-      padding-left: 50px;
-    }
-    nav ul li a{
-      font-size: 16px;
-    }
+  .active{
+    margin-top: 20%;
   }
-  @media (max-width: 858px){
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      width: 40%;
-      height: 100vh;
-      background: #2c3e50;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-    nav ul li{
-      display: block;
-      margin: 30px 0;
-      line-height: 30px;
-    }
-    nav ul li a{
-      font-size: 20px;
-    }
-    a:hover,a.active{
-      background: none;
-      color: #8cd603;
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
+.list li{
+  display: block;
+  margin-top: 7%;
+}
+.list li a{
+  font-size: 17px;
+    padding: 15px 40%;
+    border-radius: 3px;
+    text-decoration: none;
+  font-size: 4vw;
+    text-transform: uppercase;
+}
+  
+
+}
+
+
+@media (max-width:400px)
+{
+  nav{
+    padding: 1rem 0rem;
   }
   
+  .logo{
+    margin-left: 4%;
+    font-size: 7vw;
+  }
+  .checkbtn{
+    display: block;
+    font-size: 6vw;
+  }
+  .list{
+   position: absolute;
+   top: 4.2%;
+   left: -90%;
+   width: 90%;
+   height: 100vh;
+   z-index: 999;
+   background-color: rgb(29, 13, 13);
+   
+  }
+  .list2{
+    left: 0;
+  }
+.list li{
+  display: block;
+  margin-top: 15%;
+}
+.list li a{
+  font-size: 17px;
+    padding: 15px 40%;
+    border-radius: 3px;
+    text-decoration: none;
+  font-size: 4vw;
+    text-transform: uppercase;
+}
+  
+
+}

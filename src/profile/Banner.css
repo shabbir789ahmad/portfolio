@@ -1,213 +1,119 @@
+.banner{
+    overflow: hidden;
+    background-color: #010118;
+    width: 100%;
+    height: 88vh;
+}
 
+.text{
+  margin-left: 10%;
+    margin-top: 20%;
+    color: #fff;
+}
+.text p{
+    margin-top: 4%;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+.text h1{
+    font-size: 3vw;
+    font-weight: 700;
+}
 
+.text h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
 
+.text h3  span{
+    font-size: 1.3vw;
+    color: crimson;
+}
 
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.contact_button{
+    background-color: crimson;
+    color: #fff;
+    margin: 2%;
+    font-size: 1.3vw;
+    padding: .7rem 1.2rem;
+}
 
-.contact_button:hover{
-    background-color: #A1E0E0 !important;
+.header_image{
+    margin-top: 90px;
+    margin-left: 17%;
+    border: 5px solid crimson;
+    border-radius: 20rem;
+    width: 500px;
+    height: 500px;
+
+}
+.social_icons{
+    display: flex;
+    flex-direction: row;
+}
+.social_icons a{
+    font-size: 1.7vw;
+    padding: .6rem 1rem;
+    margin: .5%;
+    border-radius: 50%;
+    background-color: #fff;
     color: #000;
 }
 
+.social_icons a:hover{
+    background-color: crimson;
+    color: #fff;
+}
 
-
-
-
-@media (max-width: 576px)
+@media (max-width:765px)
 {
-.banner1 
- {
-   
-   width:100% ;
-  height: calc(100vh - 70px);
-  scroll-snap-align: start;
- }
+    .banner{
+        height: auto;
+    }
+    .text{
+        margin-bottom: 20%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text p{
+        font-size: 4vw;
+    }
+    .text h1{
+        font-size: 7vw;
+    }
+    .text h3{
+        font-size: 3vw ;
+    }
+    .text h3 span{
+        font-size: 3vw ;
  
- 
- .text{
-     margin-top: 10%;
-     margin-left: 18%;
-     
-   
- }
- .text h4{
-     margin-top: 2%;
-     font-size: 4vw;
- }
-.text h3{
-    font-size: 4vw;
-    font-weight: 700;
-}
- .text h1{
-    font-size: 6vw;
-    font-weight: 700;
-}
-h3 span{
-    color: rgb(250, 4, 4);
-    margin-left: 1%;
-    font-size: 4vw;
-}
-.contact-btn{
-    width: 40%;
-    height: 20%;
-    margin-top: 3%;
-    margin-left: 17%;
-    background-color: rgb(2, 44, 51);
-    color: #ffffff;
-}
- .img{
-    margin-top: 17%;
-    width: 100%;
-    height: 20rem;
-    
-}
+    }
+    .buttons{
+        width: 100%;
+        justify-content: center;
+    }
+    .contact_button{
+        font-size: 4vw;
+    }
 }
 
-
-
-@media (min-width: 577px) and (max-width: 900px)
+@media (min-width:766px)  and (max-width:1000px)
 {
-.banner1 
- {
-   
-   width:100% ;
-  height: calc(100vh - 180px);
-  scroll-snap-align: start;
- }
- 
- 
- .text{
-     display: flex;
-     flex-direction: column;
-     margin-top: 50%;
-     margin-left: 10%;
-     
-   
- }
- .text h4{
-     margin-top: 2%;
-     font-size: 3vw;
- }
-.text h3{
-    font-size: 3vw;
-    font-weight: 700;
+.banner{
+    height: 40vh;
 }
- .text h1{
-    font-size: 4vw;
-    font-weight: 700;
-}
-h3 span{
-    color: rgb(250, 4, 4);
-    margin-left: 1%;
-    font-size: 3vw;
-}
-.contact-btn{
-    width: 40%;
-    height: 14%;
-    margin-top: 5%;
-    margin-left: 10%;
-    background-color: rgb(2, 44, 51);
-    color: #ffffff;
-}
- .img{
-    margin-top: 17%;
-    width: 50%;
-    height: 20rem;
-    position: absolute;
-}
-}
-
-
-
-@media (min-width: 901px) and (max-width: 1500px)
-{
-.banner1 
- {
-   overflow: hidden;
-   width:100% ;
-  height: calc(100vh - 180px);
-  scroll-snap-align: start;
- }
- .row{
-  background-color: chartreuse;
-    overflow: hidden;
- }
- 
- 
-
- .text h4{
-     margin-top: 2%;
-     font-size: 2vw;
- }
-.text h3{
-    font-size: 1.5vw;
-    font-weight: 700;
-}
- .text h1{
-    font-size: 3vw;
-    font-weight: 700;
-}
-h3 span{
-    color: rgb(250, 4, 4);
-    margin-left: 1%;
-    font-size: 1.5vw;
-}
-.contact-btn{
-    width: 30%;
-    height: 10%;
-    margin-top: 5%;
-    margin-left: 10%;
-    background-color: rgb(2, 44, 51);
-    color: #ffffff;
-}
- .img{
-    margin-top: 17%;
-    width: 100%;
-}
-}
-
-
-@media (min-width: 1501px) and (max-width: 2100px)
-{
-.banner1 
- {
-   overflow: hidden;
-   width:100% ;
-  height: calc(100vh - 70px);
-  scroll-snap-align: start;
- }
- 
- .text{
-     margin-top: 30%;
-     margin-left: 10%;
- }
-
- .text h4{
-     margin-top: 2%;
-     font-size: 2vw;
- }
-.text h3{
-    font-size: 1.5vw;
-    font-weight: 700;
-}
- .text h1{
-    font-size: 3vw;
-    font-weight: 700;
-}
-h3 span{
-    color: rgb(250, 4, 4);
-    margin-left: 1%;
-    font-size: 1.5vw;
-}
-.contact-btn{
-    width: 30%;
-    height: 10%;
-    margin-top: 5%;
-    margin-left: 10%;
-    background-color: rgb(2, 44, 51);
-    color: #ffffff;
-}
- .img{
-    margin-top: 17%;
-    width: 100%;
-}
+    .header_image{
+        width: 400px;
+        height: 400px;
+        margin-left: 0;
+    }
 }

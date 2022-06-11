@@ -1,0 +1,41 @@
+.About{
+    background-color: #010118;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about_image{
+    height: 40rem;
+    margin-left: 3%;
+}
+
+.about_text{
+    color: #fff;
+    margin-top: 5%;
+    padding: 4%;
+}
+.about_text h1{
+    font-weight: 700;
+}   
+.about_text p{
+  margin-top: 4%;
+  font-size: 1.2vw;
+  line-height: 4vh;
+}
+.about_text p strong{
+    color: crimson;
+}
+.about_text .detail{
+color: #99999c;
+}
+
+@media(max-width:765px)
+{
+    .about_text p{
+        font-size: 4vw;
+        line-height:2.9vh;
+      } 
+}

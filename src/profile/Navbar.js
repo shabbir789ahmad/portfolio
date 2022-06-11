@@ -1,14 +1,19 @@
 import "./Navbar.css";
-
+import { useState } from "react";
 export default function Navbar(){
+
+  const [hide,setHide]=useState(false);
+
+  const show=()=>{
+    alert('fff')
+  }
     return (
         <nav>
-      <input type="checkbox" id="check" />
-      <label htmlFor="check" className="checkbtn">
-        <i className="fas fa-bars"></i>
-      </label>
-      <label className="logo"><img src="/profile-pic (2).png"  alt="logo" width="9%" />DevStack</label>
-      <ul>
+          <label className="logo">  DevStack</label>
+      
+            
+            <label htmlFor="check" className="checkbtn" onClick={()=>show()}>  <i className="fas fa-bars"></i></label>
+      <ul className="list list2">
         <li><a className="active"  href="#banner">Home</a></li>
         <li><a  href="#portfolio">Project</a></li>
         <li><a href="#service">Services </a></li>
